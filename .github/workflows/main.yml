@@ -1,0 +1,14 @@
+on: 
+  push:
+    branches:
+      - test
+
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+      steps:
+        - name:'testing github action'
+        run: pwd
+         - name:'testing printed'
+        run: echo asmaa
